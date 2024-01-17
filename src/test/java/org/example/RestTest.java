@@ -21,12 +21,12 @@ public class RestTest {
     }
 
     @Test
-    @DisplayName("Тестирование API при вводе типичных данных.")
+    @DisplayName("РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ API РїСЂРё РІРІРѕРґРµ С‚РёРїРёС‡РЅС‹С… РґР°РЅРЅС‹С….")
     void test1() {
 
 
         FoodPojo foodPojo = new FoodPojo();
-        foodPojo.setName("Мандарин");
+        foodPojo.setName("РњР°РЅРґР°СЂРёРЅ");
         foodPojo.setType("FRUIT");
         foodPojo.setExotic(true);
 
@@ -48,7 +48,7 @@ public class RestTest {
     }
 
     @Test
-    @DisplayName("Тестирование API при вводе нетипичных данных.")
+    @DisplayName("РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ API РїСЂРё РІРІРѕРґРµ РЅРµС‚РёРїРёС‡РЅС‹С… РґР°РЅРЅС‹С….")
     void test2() {
 
 
